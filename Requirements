@@ -1,0 +1,7 @@
+kaleido>=0.2.1
+numpy>=1.23.0
+pandas>=1.5.1
+plotly>=5.11.0
+torch>=1.13.0
+tqdm>=4.64.1
+scipy>=1.9.3
