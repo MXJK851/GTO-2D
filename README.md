@@ -2,7 +2,7 @@
 
 ## What is GTO-2D
 
-GTO-2D is a metaheuristic optimization package based on genetic tunneling algorithm that designed for complex low-dimensional magnetic systems. Only magnetic interactions needed to start GTO-2D optimization, no extra prior knowledge or initial guess is needed. The potential user may include but is not limited to scientists that interesting in 2D magnetism. This package currently mainly uses the UppASD backend and accepts DFT-calculated interactions in the same format as UppASD.
+GTO-2D is a metaheuristic optimization package based on genetic tunneling algorithm that designed for finding ground state of complex low-dimensional magnetic systems at finite temperatures. Only magnetic interactions needed to start GTO-2D optimization, no extra prior knowledge or initial guess is needed. The potential user may include but is not limited to scientists that interesting in 2D magnetism. This package currently mainly uses the UppASD backend and accepts DFT-calculated interactions in the same format as UppASD.
  
 <p align="center">
   <img src="./Figures/GTO2D.png" width="50%" title="GTO=2D">
