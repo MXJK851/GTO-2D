@@ -24,6 +24,13 @@ Where `<profile>` is a suitable compiler profile, i.e. `ifort`, `gfortran`, `gfo
     conda activate gto2d
     pip install -r Requirements
    ```
+ * Testing environment
+  ```shell
+  1. Redhat
+  2. WSL2 in WIN11
+  3. OS: openSUSE Tumbleweed x86_64 Kernel: 5.11.12 CPU: Intel i9-10850K GPU: NVIDIA GeForce RTX 3070
+  4. Mac Mini M1
+  ```
 ## Usage
 ### Toy demo with Bloch skyrmions
 All magentic interaction data are prepared in the same style as UppASD package, more detail on input files can check on:
