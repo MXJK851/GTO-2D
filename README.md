@@ -13,7 +13,8 @@ GTO-2D is a metaheuristic optimization package based on genetic tunneling algori
    ```python
     upzip ./UppASD_VT.zip
     cd ./UppASD_VT
-    bash ./setup_UppASD.sh   
+    bash ./setup_UppASD.sh
+    make clean
     make <profile>  
    ```
 Where `<profile>` is a suitable compiler profile, i.e. `ifort`, `gfortran`, `gfortran-osx` and so on. More information for install UppASD package can be find in https://uppasd.github.io/UppASD-manual/.
@@ -29,8 +30,11 @@ Where `<profile>` is a suitable compiler profile, i.e. `ifort`, `gfortran`, `gfo
      1. Redhat
      2. WSL2 in WIN11
      3. openSUSE Tumbleweed x86_64 Kernel: 5.11.12 
-        CPU: Intel i9-10850K GPU: NVIDIA GeForce RTX 3070
-     4. Mac Mini M1
+        CPU: Intel i9-10850K
+        Memory: 64 GB
+     4. Mac Mini MacOS 13.1
+        CPU: Silicon M1
+        Memory: 16 GB
   ```
 ## Usage
 ### Toy demo with Bloch skyrmions
