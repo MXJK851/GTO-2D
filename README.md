@@ -22,7 +22,7 @@ Where `<profile>` is a suitable compiler profile, i.e. `ifort`, `gfortran`, `gfo
    ```python
     conda create --name gto2d python=3.10
     conda activate gto2d
-    pip install -r requirements.txt
+    pip install -r Requirements
    ```
 ## Usage
 ### Toy demo with Bloch skyrmions
