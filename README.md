@@ -3,10 +3,18 @@
 ## What is GTO-2D
 
 GTO-2D is a metaheuristic optimization package based on genetic tunneling algorithm that designed for finding ground state of complex low-dimensional magnetic systems at finite temperatures. Only magnetic interactions needed to start GTO-2D optimization, no extra prior knowledge or initial guess is needed. The potential user may include but is not limited to scientists that interesting in 2D magnetism. This package currently mainly uses the UppASD backend and accepts DFT-calculated interactions in the same format as UppASD.
- 
+
+The support for Kagome lattice is still in developing.
+
 <p align="center">
   <img src="./Figures/GTO2D.png" width="50%" title="GTO=2D">
 <p align="justify">
+
+## Cite us
+
+If you used GTO-2D in your research work, we kindly request you condider citing our paper:
+
+xxx
 
 ## Installation
  * First install variance controlled UppASD package `UppASD_VT`:
@@ -27,8 +35,13 @@ Where `<profile>` is a suitable compiler profile, i.e. `ifort`, `gfortran`, `gfo
    ```
  * Testing environment
   ```shell
-     1. Redhat
-     2. WSL2 in WIN11
+     1. CentOS 
+        Tetralith cluster, National Supercomputer Centre at Linköping University
+        CPU: Intel Gold 6130 * 2
+        Memory: 96 GB / 384 GB (fat node)
+     2. WSL2 in WIN11 (Ubuntu 20.04.5 LTS)
+        CPU: Intel i9-12900H
+        Memory: 64 GB
      3. openSUSE Tumbleweed x86_64 Kernel: 5.11.12 
         CPU: Intel i9-10850K
         Memory: 64 GB
@@ -137,13 +150,5 @@ https://uppasd.github.io/UppASD-manual/
     ```
     The GTO-2D will firstly consider values set by flag `--offspring_nunber 40`.
 
-More demo can be find in our data repo:
-
-xxxx (our paper's data)
 
 
-### Cite us
-
-If you used GTO-2D in your research work, we kindly request you condider citing our paper:
-
-xxx
