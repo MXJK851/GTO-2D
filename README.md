@@ -149,6 +149,8 @@ https://uppasd.github.io/UppASD-manual/
       python ./1/GTO_2D.py --offspring_nunber 40
     ```
     The GTO-2D will firstly consider values set by flag `--offspring_nunber 40`.
+  
+  More example, like Pd/Fe/Ir(111) can be find in the "Example" folder. (If you use the interaction data for Pd/Fe/Ir(111), please considering cite the paper: Miranda I P, Klautau A B, Bergman A, et al. Band filling effects on the emergence of magnetic skyrmions: Pd/Fe and Pd/Co bilayers on Ir (111)[J]. https://link.aps.org/doi/10.1103/PhysRevB.105.224413, 2022.)
 
 
 
