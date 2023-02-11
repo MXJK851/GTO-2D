@@ -52,24 +52,24 @@ Where `<profile>` is a suitable compiler profile, i.e. `ifort`, `gfortran`, `gfo
   ```
  ## Case study on Pd/Fe/Ir system with GTO-2D
 
-  With B_ext = 0.7T @ 0.0001mK  (Ground state: spin spirial)
+  With B_ext = 0.7T @ 0.1mK  (Ground state: spin spirial)
  
   <p align="center">
   <img src="./Figures/0K_SS_1.gif" width="80%" title="GTO=2D">
   <p align="justify">
 
-  With B_ext = 2.7T @ 0.0001mk (Ground state: skyrmion lattics)
+  With B_ext = 2.7T @ 0.1mk (Ground state: skyrmion lattics)
  
   <p align="center">
   <img src="./Figures/0K_SKX_1.gif" width="80%" title="GTO=2D">
   <p align="justify">
 
-  With B_ext = 3.7T @ 0.0001mK  (Ground state: ferrimagnetc)
+  With B_ext = 3.7T @ 0.1mK  (Ground state: ferrimagnetc)
  
   <p align="center">
   <img src="./Figures/0K_FM_1.gif" width="80%" title="GTO=2D">
   <p align="justify">
-  
+
 ## Usage
 ### Toy demo with Bloch skyrmions
 All magentic interaction data are prepared in the same style as UppASD package, more detail on input files can check on:
