@@ -50,6 +50,26 @@ Where `<profile>` is a suitable compiler profile, i.e. `ifort`, `gfortran`, `gfo
         CPU: Silicon M1
         Memory: 16 GB
   ```
+ ## Case study on Pd/Fe/Ir system with GTO-2D
+
+  With B_ext = 0.7T @ 0.0001mK  (Ground state: spin spirial)
+ 
+  <p align="center">
+  <img src="./Figures/0K_SS_1.gif" width="80%" title="GTO=2D">
+  <p align="justify">
+
+  With B_ext = 2.7T @ 0.0001mk (Ground state: skyrmion lattics)
+ 
+  <p align="center">
+  <img src="./Figures/0K_SKX_1.gif" width="80%" title="GTO=2D">
+  <p align="justify">
+
+  With B_ext = 3.7T @ 0.0001mK  (Ground state: ferrimagnetc)
+ 
+  <p align="center">
+  <img src="./Figures/0K_FM_1.gif" width="80%" title="GTO=2D">
+  <p align="justify">
+  
 ## Usage
 ### Toy demo with Bloch skyrmions
 All magentic interaction data are prepared in the same style as UppASD package, more detail on input files can check on:
@@ -151,25 +171,6 @@ https://uppasd.github.io/UppASD-manual/
     ```
     The GTO-2D will firstly consider values set by flag `--offspring_nunber 40`.
  
-  ## Case study on Pd/Fe/Ir system with GTO-2D
-
-  With B_ext = 0.7T @ 0.0001mK  (Ground state: spin spirial)
- 
-  <p align="center">
-  <img src="./Figures/0K_SS_1.gif" width="80%" title="GTO=2D">
-  <p align="justify">
-
-  With B_ext = 2.7T @ 0.0001mk (Ground state: skyrmion lattics)
- 
-  <p align="center">
-  <img src="./Figures/0K_SKX_1.gif" width="80%" title="GTO=2D">
-  <p align="justify">
-
-  With B_ext = 3.7T @ 0.0001mK  (Ground state: ferrimagnetc)
- 
-  <p align="center">
-  <img src="./Figures/0K_FM_1.gif" width="80%" title="GTO=2D">
-  <p align="justify">
 
   More example, like Pd/Fe/Ir(111) can be find in the "Example" folder. (If you use the interaction data for Pd/Fe/Ir(111), please considering cite the paper: Miranda I P, Klautau A B, Bergman A, et al. Band filling effects on the emergence of magnetic skyrmions: Pd/Fe and Pd/Co bilayers on Ir (111)[J]. https://link.aps.org/doi/10.1103/PhysRevB.105.224413, 2022.)
 
