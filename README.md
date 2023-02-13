@@ -52,19 +52,19 @@ Where `<profile>` is a suitable compiler profile, i.e. `ifort`, `gfortran`, `gfo
   ```
  ## Case study on Pd/Fe/Ir system with GTO-2D
 
-  With B_ext = 0.7T @ 0.1mK  (Ground state: spin spirial)
+  With B_ext = 0.7T @ 0.1mK  (Ground state: spin spiral)
  
   <p align="center">
   <img src="./Figures/0K_SS_1.gif" width="80%" title="GTO=2D">
   <p align="justify">
 
-  With B_ext = 2.7T @ 0.1mk (Ground state: skyrmion lattics)
+  With B_ext = 2.7T @ 0.1mk (Ground state: skyrmion lattice)
  
   <p align="center">
   <img src="./Figures/0K_SKX_1.gif" width="80%" title="GTO=2D">
   <p align="justify">
 
-  With B_ext = 3.7T @ 0.1mK  (Ground state: ferrimagnetc)
+  With B_ext = 3.7T @ 0.1mK  (Ground state: ferromagnetic)
  
   <p align="center">
   <img src="./Figures/0K_FM_1.gif" width="80%" title="GTO=2D">
