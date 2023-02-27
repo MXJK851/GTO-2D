@@ -14,7 +14,7 @@ The support for Kagome lattice is still in developing.
 
 If you used GTO-2D in your research work, we kindly request you condider citing our paper:
 
-xxx
+Xu, Q., Shen, Z., Pereiro, M., Herman, P., Eriksson, O., & Delin, A. (2022). Genetic-tunneling driven energy optimizer for spin systems. arXiv preprint arXiv:2301.00207.
 
 
 ## Installation
